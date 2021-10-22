@@ -1,0 +1,78 @@
+:root{
+    --vermelho: #ac060e;
+    --preta: #141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* Flementos Base*/
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+
+header .container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .Logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left:5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+/* gera uma cor diferente quando passa o mouse */
+header nav a:hover{
+    color: #fff; 
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.container{
+    margin-left: 10px;
+}
+
+.form-control{
+width: 200px;
+margin-right: 10px;
+}
+
+.input{
+    width: 500px;
+}
+
+.form{
+    margin-left: 50px;
+}
+
+.busca{
+    position: absolute; right: 0;
+    margin-right: 30px;
+}
+
+.links{
+    margin-right: 130px;
+}
+ 
+hr{
+    margin-top: 10px;
+}
