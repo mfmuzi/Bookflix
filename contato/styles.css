@@ -10,11 +10,12 @@
 }
 
 
-/* Flementos Base*/
+/* Elementos Base*/
 body{
     background: var(--preta);
     font-family: 'Arial', Times, serif;
     color: white;
+    background: no-repeat center center fixed url(../assets/img/Background2.jpg);
 }
 
 
@@ -30,6 +31,7 @@ header .Logo{
     font-family: 'Arial Black', Times;
     font-size: 40px;
     margin-left:5px;
+    text-decoration: none; 
 }
 
 header nav a{

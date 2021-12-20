@@ -3,18 +3,19 @@
     --preta: #141414;
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 
+/* Elementos Base*/
+@media screen and (min-width: 600px) and (max-width: 2000px) {
+    
+    body{
+        background: var(--preta);
+        font-family: 'Arial', Times, serif;
+        background: no-repeat center center fixed url(../assets/img/Background.jpg);
+        background-size: 100% 100%;  
+        width:100%;
+        font-family: Consolas,monospace  
+    }
 
-/* Flementos Base*/
-body{
-    background: var(--preta);
-    font-family: 'Arial', Times, serif;
-    color: white;
 }
 
 
@@ -23,16 +24,18 @@ header .container{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 header .Logo{
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
-    margin-left:5px;
+    text-decoration: none;   
+    
 }
 
-header nav a{
+header nav a{    
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
@@ -43,59 +46,77 @@ header nav a:hover{
     color: #fff; 
 }
 
-p{
-    margin-bottom: 10px;
-}
-
-.container{
-        margin-left: 10px;
-    }
-
 .form-control{
     width: 200px;
     margin-right: 10px;
 }
 
-
-.card{
-    width: 500px;
-    height: 400px;
-    color: white;
-    background-color: #141414;
-    margin-top: 30px;
-    
-}
-.card-body{
-    width: 500px;
-    margin-top: 20px;
-}
-
-.card-title{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-
-.img{
-    width: 300px;
-    height: 400px;
-    margin-left: 100px;
-    
-}
-
-.textos{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
 .busca{
-    position: absolute; right: 0;
-    margin-right: 30px;
+    display: flex;
+    align-items: center;   
 }
 
-.links{
-    margin-right: 130px;
+@media screen and (min-width: 600px) and (max-width: 2000px){
+    .cards{
+        display: flex;
+        position:absolute;
+        width: 41%;
+        height: 70%;
+        margin-top: 5%;
+        margin-left: 8%;
+}    
+
+
 }
 
-hr{
-    margin-top: 10px;
+.movieCard{
+    display: flex;
+    width: 100%;
+    
 }
+
+.bookCard{
+    display: flex;   
+    margin-left: 10%;
+    width: 100%;
+    
+}
+
+img{
+    width: 125px;
+    height: 150px;
+    border-radius: 5%;
+
+}
+.cardText{
+    width: 500px;
+    height: 450px;
+    margin-left: 20px;
+    
+}
+
+.text-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-description{
+    margin-left: -125px;
+    margin-top: 30px;
+    
+}
+
+
+h5{
+    display: flex;
+    align-items: baseline;
+}
+
+pre{
+    margin-left: 10px;
+}
+
+p{
+    font-size: 1em;
+}
+

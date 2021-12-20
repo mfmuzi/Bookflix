@@ -17,5 +17,19 @@
    } 
 }
 
+.card-title{
+    display: flex;
+    
+    text-decoration: underline;
+
+}
+
+.card-text{
+    margin-left: 20px;
+    display: flex;
+    
+}
+
+
     
 

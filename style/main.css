@@ -10,11 +10,12 @@
 }
 
 
-/* Flementos Base*/
+/* Elementos Base*/
 body{
     background: var(--preta);
     font-family: 'Arial', Times, serif;
     color: white;
+    background: no-repeat center center fixed url(../assets/img/Background2.jpg);
 }
 
 
@@ -30,6 +31,7 @@ header .Logo{
     font-family: 'Arial Black', Times;
     font-size: 40px;
     margin-left:5px;
+    text-decoration: none; 
 }
 
 header nav a{
@@ -55,7 +57,8 @@ p{
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('https://i.pinimg.com/originals/a6/47/2f/a6472f4717e77a7f6292077714173351.jpg');
     background-repeat: no-repeat;
     height:400px;
-    background-size:cover; 
+    background-size:cover;
+    margin-top: 10px; 
 
     display: flex;
     flex-direction: column;
@@ -113,11 +116,12 @@ p{
 }
 
 .carrosel-filmes{
-    margin: 20px;
+    margin: 15px;
 }
 
 .titulo-carrosel{
-    margin: 30px
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.925);
 }
 
 .form-control{
